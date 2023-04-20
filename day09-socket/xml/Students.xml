@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 学生标签 -->
+<students>
+    <!-- 第一个学生 -->
+    <student id="hainiu001">
+        <name>Tom</name>
+        <age>23</age>
+        <address>beijing</address>
+    </student>
+
+
+    <!-- 第二个学生 -->
+    <student id="hainiu002">
+        <name>Tom</name>
+        <age>23</age>
+        <address>beijing</address>
+        <info> a &lt; b </info>
+        <code> <![CDATA[a <<<<<>>>>> b]]> </code>
+    </student>
+
+</students>

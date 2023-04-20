@@ -1,0 +1,31 @@
+xml
+    扩展标记语言
+    标记语言 -- 用标签来表示数据
+    扩展 -- 标签可以自定义
+
+    <student>
+        <name>Tom</name>
+        <age>23</age>
+        <address>beijing</address>
+    </student>
+    <student>
+        <name>Jerry</name>
+        <age>24</age>
+        <address>shanghai</address>
+    </student>
+
+    用途：
+        存储和传输数据。
+        配置文件和传输指定格式的数据。
+
+xml的语法
+    1、xml文档必须有一个文档声明（首行首列）
+    2、xml文档必须有一个根标签
+    3、所有 XML 元素都须有关闭标签
+    4、XML 标签对大小写敏感
+    5、XML 必须正确地嵌套
+    6、XML 的属性值须加引号
+    7、在 XML 中，空格会被保留 针对Html
+
+配置文件经常使用xml文档，能够到文档中修改或者设置指定的配置即可。
+

@@ -1,0 +1,77 @@
+﻿1、能够说出java语言的跨平台(可移植)特性
+
+​	java程序并非是直接运行的，首先java编译器将源码编译成class文件，然后由java虚拟机对字节进行解释，从而实现java程序的跨平台使用
+
+2、说出jvm\jre\jdk分别指的什么
+
+​	JVM  进行java编辑的虚拟机，jre java运行的环境，jdk java开发工具包
+
+3、能够说出为什么配置环境变量
+	为了让jdk的bin目录下的所有命令在任意目录可以使用
+
+4、能够使用idea熟练的创建项目（project）、模块（module）、包（package）、类（class）
+
+5、熟练的说出Java中的8个基本数据类型以及所占内存大小
+    byte		1
+    short		2
+    int		4
+    long		8
+    float		4
+    double		8
+    char		2
+    boolean	1
+
+6、能够使用合适的数据类型定义变量表示现实中的数据
+
+​	int默认用于整数，byte和short不常用，long用于大数，
+
+​	小数默认使用double，表示双精度，常用于价格的表示，float用于单精度表示小数
+
+​	char表示字符
+
+​	boolean 只有true以及false 两种
+
+7、能够说出标识符的命名规则
+
+​	第一个字符不能是数字，标识符不能使用关键字，
+
+​	小驼峰式命名：变量名、方法名
+
+​	大驼峰式命名：类名、接口名、枚举名
+
+8、知道强制类型转换的格式和原理
+
+​	把一个表示数据范围大的数值或者变量赋值给另一个表示数据范围小的变量。
+
+​	强制类型转换格式：目标数据类型 变量名 = (目标数据类型)值或者变量;
+
+​	原理：由大到小不能直接转换，需要在变量之前加上括号，括号内填写要转换的类型，才能强制转换
+
+作业：
+1、针对8种基本数据类型数据，分别定义一个变量，并输出它们的值
+
+```
+public class test3 {
+    public static void main(String[] args) {
+        byte a = 1;
+        System.out.println(a);
+        short b = 42;
+        System.out.println(b);
+        int c = 120;
+        System.out.println(c);
+        long d = 9999999999999L;
+        System.out.println(d);
+        float e = 2.0F;
+        System.out.println(e);
+        double f = 4.99;
+        System.out.println(f);
+        char g = 'x';
+        System.out.println(g);
+        boolean h = true;
+        System.out.println(h);
+    }
+}
+```
+
+2、练习打字 预习
+
